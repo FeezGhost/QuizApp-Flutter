@@ -301,6 +301,7 @@ class _QuickQuizState extends State<QuickQuiz> {
                                   ),
                                 ),
                                 onPressed: (){
+                                  Navigator.pushNamed(context, '/practice_questions');
                                 },
                               ),
 
