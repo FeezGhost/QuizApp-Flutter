@@ -8,7 +8,10 @@ import 'package:fiver_project1/pages/history.dart';
 import 'package:fiver_project1/pages/Result.dart';
 
 void main() => runApp(MaterialApp(
-  initialRoute: '/result',
+  theme: ThemeData(
+    fontFamily: 'Cormorant'
+  ),
+  initialRoute: '/home',
   routes: {
     '/': (context) => LoadingScreen(),
     '/home': (context) => Home(),

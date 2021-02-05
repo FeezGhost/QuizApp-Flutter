@@ -13,6 +13,7 @@ class _ResultState extends State<Result> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       backgroundColor: Colors.deepPurpleAccent[100],
       body: SafeArea(
           child: Stack(
